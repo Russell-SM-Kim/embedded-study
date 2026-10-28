@@ -33,3 +33,4 @@ embedded-study/
 | 날짜 | 주차 | 내용 |
 | --- | --- | --- |
 | 2026-10-29 | 0 | [OJ 임베디드 입문 1~2강: 오리엔테이션, 보드 전원](week00-setup/2026-10-29-oj-embedded-01-02.md) |
+| 2026-10-29 | 0 | [OJ 임베디드 입문 3강: 큰 그림 (전기 → CPU → MCU)](week00-setup/2026-10-29-oj-embedded-03-big-picture.md) |

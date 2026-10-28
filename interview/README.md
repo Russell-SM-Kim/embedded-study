@@ -4,3 +4,5 @@
 
 | 주제 | 질문 | 답변 위치 |
 | --- | --- | --- |
+| 기초 | CPU와 MCU의 차이는? | [3강 노트](../week00-setup/2026-10-29-oj-embedded-03-big-picture.md) |
+| 기초 | 임베디드 시스템과 범용 컴퓨터의 차이는? | [3강 노트](../week00-setup/2026-10-29-oj-embedded-03-big-picture.md) |
