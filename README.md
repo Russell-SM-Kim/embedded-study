@@ -20,17 +20,26 @@
 | 11~12 | 1/11 ~ 1/24 | 프로젝트 2, 면접 준비 |
 
 ## 폴더 구조
+과목별 폴더로 나누고, 각 폴더 안에 `notes/`(학습 노트)와 `src/`(실습 코드)를 둡니다.
+
 ```
 embedded-study/
-├── week00-setup/          # 주차별 폴더: 학습 노트(날짜-주제.md)
-├── week01-c-basics/       #   + 실습 코드는 src/ 아래
-├── ...
-├── week12-interview-prep/
-└── interview/             # 면접 예상 질문과 내 답변 모음
+├── 00-embedded-basics/            # 임베디드 전반 개념 (OJ 강의 등)
+├── 01-c/                          # C 언어 (1~2주차)
+├── 02-data-structures/            # 자료구조·알고리즘 (3주차)
+├── 03-computer-architecture-os/   # 컴퓨터구조·운영체제 (4주차)
+├── 04-electronics/                # 전자 기초, 회로도·데이터시트 (4주차)
+├── 05-stm32/                      # STM32 실습 (5~6주차)
+├── 06-freertos/                   # FreeRTOS (7~8주차)
+├── 07-cpp/                        # C++ (9주차)
+├── 08-linux/                      # 리눅스·시스템 프로그래밍 (9~10주차)
+└── interview/                     # 면접 예상 질문과 내 답변 모음
 ```
+
+포트폴리오 프로젝트(RTOS 서보 제어기, 센서 데이터 수집 시스템)는 별도 저장소로 관리합니다.
 
 ## 학습 노트
 | 날짜 | 주차 | 내용 |
 | --- | --- | --- |
-| 2026-10-29 | 0 | [OJ 임베디드 입문 1~2강: 오리엔테이션, 보드 전원](week00-setup/2026-10-29-oj-embedded-01-02.md) |
-| 2026-10-29 | 0 | [OJ 임베디드 입문 3강: 큰 그림 (전기 → CPU → MCU)](week00-setup/2026-10-29-oj-embedded-03-big-picture.md) |
+| 2026-10-29 | 0 | [OJ 임베디드 입문 1~2강: 오리엔테이션, 보드 전원](00-embedded-basics/notes/2026-10-29-oj-embedded-01-02.md) |
+| 2026-10-29 | 0 | [OJ 임베디드 입문 3강: 큰 그림 (전기 → CPU → MCU)](00-embedded-basics/notes/2026-10-29-oj-embedded-03-big-picture.md) |
